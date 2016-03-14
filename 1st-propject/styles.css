@@ -1,0 +1,15 @@
+h1 {
+    color:red;
+}
+
+h2 {color:blue;padding-left:10px;}
+
+header {background:black;padding:10px;}
+
+nav {background:grey;padding:10px;}
+
+nav a {text-decoration:none;color:white;padding:10px;}
+
+footer {background:blue;color:white;padding:10px;}
+
+p {padding:10px;}

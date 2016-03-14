@@ -1,0 +1,35 @@
+body {
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+h2 {font-size:22px;}
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+header { background-color: green;color:white;padding:20px;}
+#cont1 {
+    background-color: gold;
+    padding:10px;
+    color:white;
+}
+#cont2 {
+    background-color: silver;
+    padding:10px;
+    color:white;
+}
+#cont3 {
+    background-color: saddlebrown;
+    padding: 10px;
+    color:white;
+}
+
+.grid-container {padding-top:20px;}
+
+footer { background-color: green;color:white;padding:20px;margin-bottom:0px;}
