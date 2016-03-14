@@ -18,20 +18,10 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
     $sql="SELECT * FROM users WHERE username='". $username ."' and password='". $password . "'";
     $result=mysqli_query($db,$sql);
 
-    $valueFound = 0;
-    while($row = $result->fetch_array())
-    {
-        $valueFound = 1;
-    }
-
-    if ($valueFound==1)
-    {
+    if(mysqli_num_rows($result) == 1) {
         header ("location: home.php");
-    }
-    else
-    {
+    }else {
         echo "Incorrect username or password";
     }
-
 }
 ?>
