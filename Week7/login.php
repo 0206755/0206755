@@ -21,7 +21,7 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
     if(mysqli_num_rows($result) == 1) {
         header ("location: home.php");
     }else {
-        echo "uname: "$username . "<br>";
+        echo "uname: " . $username . "<br>";
         echo $password . "<br>";
 
         echo "Incorrect username or password";
