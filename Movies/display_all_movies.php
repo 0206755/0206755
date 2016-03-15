@@ -12,10 +12,10 @@ include("connect2DB.php");
 $sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
-$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-while($row = mysqli_fetch_array( $result )) {
+$row = mysql_fetch_array($result, MYSQLI_ASSOC);
+
     echo $row;
-}
+
 ?>
 </body>
 </html>
