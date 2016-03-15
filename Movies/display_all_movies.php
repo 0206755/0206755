@@ -12,7 +12,7 @@ include("connect2DB.php");
 $sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
-$row = mysql_fetch_array($result, MYSQLI_ASSOC);
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 
 echo "<table border='1'>";
 echo "<tr> <th>Name</th> <th>Age</th> </tr>";
