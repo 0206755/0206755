@@ -13,8 +13,9 @@ $sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
 $row = mysql_fetch_array($result, MYSQLI_ASSOC);
-
-echo $row;
+while($row = mysql_fetch_array( $result )) {
+    echo $row;
+}
 ?>
 </body>
 </html>
