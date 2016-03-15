@@ -20,15 +20,15 @@ while($row = mysqli_fetch_array( $result )) {
     // Print out the contents of each row into a table
 
     echo $row['marvelMovieID'];
-
+    echo "<br /><br />";
     echo $row['yearReleased'];
-
+    echo "<br /><br />";
     echo $row['title'];
-
+    echo "<br /><br />";
     echo $row['productionStudio'];
-
+    echo "<br /><br />";
     echo $row['notes'];
-
+    echo "<br /><br />";
     echo "<br /><br />";
 
 }
