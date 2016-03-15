@@ -6,6 +6,12 @@
 </head>
 <body>
 <h1>Hello</h1>
-<p>Hello echo $username;</p>
+<p>Hello
+
+<?php
+    $username =$_GET['username'];
+    echo $username; ?>
+
+</p>
 </body>
 </html>
