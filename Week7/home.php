@@ -6,5 +6,6 @@
 </head>
 <body>
 <h1>Hello</h1>
+<p>Hello echo $username;</p>
 </body>
 </html>
