@@ -9,7 +9,7 @@
 <?php
 include("header.html");
 include("connect2DB.php");
-$sql = "SELECT * from marvel movies";
+$sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
 $row = mysql_fetch_array($result,
