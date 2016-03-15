@@ -12,8 +12,8 @@ include("connect2DB.php");
 $sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
-$row = mysql_fetch_array($result, MYSQLI_ASSOC);
-while($row = mysql_fetch_array( $result )) {
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+while($row = mysqli_fetch_array( $result )) {
     echo $row;
 }
 ?>
