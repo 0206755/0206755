@@ -17,7 +17,7 @@ p {
     margin-left:22px;
 }
 
-ul {
+ul, ul li a {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 25px;
