@@ -10,11 +10,12 @@
 </head>
 <body>
 <div class="wrapper">
+    <div class="grid-container">
 <h1>Home page for movies stuff</h1>
 <?php
 include("menu.html");
 ?>
-
+    </div>
 </div>
 </body>
 </html>
