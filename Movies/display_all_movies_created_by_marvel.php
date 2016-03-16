@@ -9,7 +9,7 @@
 <?php
 include("header.html");
 include("connect2DB.php");
-$sql = "SELECT * from marvelmovies WHERE productionStudio = "Marvel Studios";
+$sql = "SELECT * from marvelmovies WHERE productionStudio = 'Marvel Studios'";
 
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
