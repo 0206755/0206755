@@ -23,7 +23,7 @@ $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 // keeps getting the next row until there are no more to get
 while($row = mysqli_fetch_array( $result )) {
     // Print out the contents of each row into a table
-
+    echo "<p>";
     echo $row['marvelMovieID'];
     echo "<br /><br />";
     echo $row['yearReleased'];
@@ -35,6 +35,7 @@ while($row = mysqli_fetch_array( $result )) {
     echo $row['notes'];
     echo "<br /><br />";
     echo "<br /><br />";
+    echo "</p>";
 
 }
 
