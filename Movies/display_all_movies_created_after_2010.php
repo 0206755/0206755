@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="wrapper">
+<main>
 <h1>Display All Movies Created after 2010</h1>
 <?php
 include("menu.html");
@@ -41,6 +41,6 @@ while($row = mysqli_fetch_array( $result )) {
 
 
 ?>
-S</div>
+</main>
 </body>
 </html>
