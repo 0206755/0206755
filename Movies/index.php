@@ -13,8 +13,8 @@
 <h1>Home page for movies stuff</h1>
 <?php
 include("menu.html");
+include("footer.html");
 ?>
-    include("footer.html");
 </main>
 </body>
 </html>

@@ -40,9 +40,9 @@ while($row = mysqli_fetch_array( $result )) {
 }
 
 
-
+include("footer.html");
 ?>
-    include("footer.html");
+
 </main>
 </body>
 </html>
