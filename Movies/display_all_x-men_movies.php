@@ -9,6 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<div class="wrapper">
 <h1>Display All X-Men Movies</h1>
 <?php
 include("menu.html");
@@ -40,5 +41,6 @@ while($row = mysqli_fetch_array( $result )) {
 
 
 ?>
+</div>
 </body>
 </html>

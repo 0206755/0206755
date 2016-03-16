@@ -9,11 +9,12 @@
     <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<div class="wrapper">
 <h1>Home page for movies stuff</h1>
 <?php
 include("menu.html");
 ?>
 
-
+</div>
 </body>
 </html>

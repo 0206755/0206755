@@ -1,4 +1,6 @@
-body {width:960px;padding:20px;}
+body {}
+
+.wrapper {width:960px;padding:20px;margin:auto;}
 
 h1 {
     font-family: 'Lobster', Georgia, Times, serif;
@@ -7,6 +9,12 @@ h1 {
 }
 
 p {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ul {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 25px;
