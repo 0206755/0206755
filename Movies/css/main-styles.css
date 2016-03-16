@@ -24,7 +24,7 @@ ul, ul li a {
     color:white;
     list-style-type:none;
     text-decoration:none;
-    display:inline;
+    display:inline-block;
 }
 
 footer {margin-bottom:0px;}
