@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Display All Movies - Films</title>
+    <title>Display All Movies Created by Marvel- Films</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<h1>Display All Movies</h1>
+<h1>Display All Movies Created by Marvel</h1>
 <?php
-include("header.html");
+include("menu.html");
 include("connect2DB.php");
 $sql = "SELECT * from marvelmovies WHERE productionStudio = 'Marvel Studios'";
 
