@@ -14,6 +14,7 @@
 <?php
 include("menu.html");
 ?>
+    include("footer.html");
 </main>
 </body>
 </html>
