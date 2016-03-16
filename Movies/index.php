@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Home Page - Films</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main-styles.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
