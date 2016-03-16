@@ -22,7 +22,8 @@ ul, ul li a {
     font-size: 15px;
     line-height: 25px;
     color:white;
-    display-list-style:none;
+    list-style-type:none;
+    text-decoration:none;
 }
 
 footer {margin-bottom:0px;}
