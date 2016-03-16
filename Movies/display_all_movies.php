@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Display All Movies - Films</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <h1>Display All Movies</h1>
