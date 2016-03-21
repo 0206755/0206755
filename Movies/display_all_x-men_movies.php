@@ -14,7 +14,7 @@
 <?php
 include("menu.html");
 include("connect2DB.php");
-$sql = "SELECT * from marvelmovies WHERE title LIKE = '%X-Men%'";
+$sql = "SELECT * from marvelmovies WHERE title LIKE = 'X-Men%'";
 
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
